@@ -269,7 +269,7 @@ background-position: center;
 
 .image-item.card{
     background: url("media/apple\ card.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center bottom;
 }
 
@@ -373,11 +373,15 @@ footer {
 
 @media screen and (max-width: 1068px){
     .iphone-11-pro{
-        background: url("images/hero/iphone-11-pro/iphone_11_pro_medium.jpg");
+        background: url("media/iPhone-15-pro-medium.jpg");
     }
 
     .iphone-11{
-        background: url("images/hero/iphone-11/iphone_11_medium.jpg");
+        background: url("media/iPhone-15-medium.jpg");
+    }
+
+    .iphone-11 .title-dark{
+        color: #fff;
     }
 
     .watch{
@@ -567,11 +571,11 @@ footer {
 
     @media screen and (max-width: 735px){
         .iphone-11-pro{
-            background: url("images/hero/iphone-11-pro/iphone_11_pro_small.jpg");
+            background: url("media/iPhone-15-pro-medium.jpg");
         }
     
         .iphone-11{
-            background: url("images/hero/iphone-11/iphone_11_small.jpg");
+            background: url("media/iPhone-15-medium.jpg");
         }
     
         .watch{
